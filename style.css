@@ -424,3 +424,229 @@ span{
         font-size: 50%;
     }
 }
+.footer {
+    height: auto;
+    background: linear-gradient(180deg, black 0%, rgb(0,255,206) 100%);
+}
+
+.parent-div-footer1 {
+    display: flex;
+    flex-direction: row;
+}
+.contact-foot{
+    margin-left: 17rem;
+}
+#contact-head {
+    margin-left: none;
+    margin-bottom: 5rem;
+    font-size: 8rem;
+}
+
+#phone-number, #insta-id, #email-id, #facebook-id {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#phone-number:hover, #insta-id:hover, #email-id:hover, #facebook-id:hover {
+    color: rgb(0,255,206);
+}
+
+.map {
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.tnc {
+    font-size: 5rem;
+    margin-right: 5rem;
+}
+
+.child-par-div2 {
+    margin-left: 17rem;
+    display: flex;
+}
+
+.parent-div-footer2 {
+    margin-top: 15rem;
+}
+
+.child-par-div3-head {
+    font-size: 5rem;
+}
+
+.child-par-div3-body {
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.child-par-div3 {
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-top: 15rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    #contact-head {
+        font-size: 7rem;
+    }
+    .contact-foot{
+        margin-left: 5rem;
+    }
+    #phone-number, #insta-id, #email-id, #facebook-id {
+        font-size: 2.8rem;
+        
+    }
+    .child-par-div2 {
+        margin-left: 15rem;
+    }
+    .child-par-div3 {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+    #why-choose-b {
+        margin: 4rem;
+        font-size: 2.8rem;
+    }
+    .why-choose {
+        font-size: 3.5rem;
+    }
+    .parent-div-footer1 {
+        flex-direction: column; /* Stack vertically */
+    }
+}
+
+@media (max-width: 991px) {
+    #contact-head {
+        margin: 10rem;
+        font-size: 6rem;
+    }
+    #phone-number, #insta-id, #email-id, #facebook-id {
+        margin-left: 10rem;
+        font-size: 2.5rem;
+    }
+    .child-par-div2 {
+        margin-left: 10rem;
+    }
+    .child-par-div3 {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    #why-choose-b {
+        margin: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .why-choose {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 786px) {
+    .footer{
+        height: auto;
+    }
+
+    #contact-head {
+        margin: 8rem;
+        font-size: 5rem;
+    }
+    #phone-number, #insta-id, #email-id, #facebook-id {
+        margin-left: 8rem;
+        font-size: 2rem;
+    }
+    .child-par-div2 {
+        flex-direction: column;
+        margin-left: 8rem;
+    }
+    .child-par-div3 {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .map {
+        margin-top: 10rem;
+        margin-left: 15%;
+    }
+    #why-choose-b {
+        margin: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .why-choose {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 617px) {
+    #contact-head {
+        margin: 5rem;
+        font-size: 4rem;
+    }
+    #phone-number, #insta-id, #email-id, #facebook-id {
+        margin-left: 5rem;
+        font-size: 1.8rem;
+    }
+    .tnc {
+        font-size: 3rem;
+    }
+    .child-par-div2 {
+        margin-left: 5rem;
+    }
+    .child-par-div3 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    #why-choose-b {
+        margin: 2rem;
+        font-size: 2rem;
+    }
+
+    .why-choose {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    #contact-head {
+        margin: 3rem;
+        font-size: 3rem;
+    }
+    #phone-number, #insta-id, #email-id, #facebook-id {
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+    .tnc {
+        font-size: 2rem;
+    }
+    .child-par-div2, .child-par-div3 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .map {
+        display: none;
+    }
+    #why-choose-b {
+        margin: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .why-choose {
+        font-size: 2rem;
+    }
+}
+/* Base styles */
+#why-choose-b {
+    margin: 5rem;
+    font-size: 3rem;
+}
+
+.why-choose {
+    height: auto;
+    font-size: 4rem;
+}
+
